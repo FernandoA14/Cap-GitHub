@@ -1,0 +1,42 @@
+Uso: git [--version] [--help] [-C <ruta>] [-c nombre=valor]
+[--exec-path[=<ruta>]] [--html-path] [--man-path] [--info-path]
+[-p | --paginate | --no-pager] [--no-replace-objects] [--bare]
+[--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
+<command> [<args>]
+
+Estos son comandos Git comunes que se usan en varias situaciones:
+
+iniciar un área de trabajo (ver también: git help tutorial)
+clone Clonar un repositorio en un nuevo directorio
+init Crear un repositorio Git vacío o reinicializar uno existente
+
+trabajar en el cambio actual (ver también: git help everyday)
+add Agregar contenido de archivo al índice
+mv Mover o renombrar un archivo, un directorio o un enlace simbólico
+reset Restablecer HEAD actual al estado especificado
+rm Eliminar archivos del árbol de trabajo y del índice
+
+examinar el historial y el estado (ver también: git help revisions)
+bisect Usar búsqueda binaria para encontrar la confirmación que introdujo un error
+grep Imprimir líneas que coincidan con un patrón
+log Mostrar registros de confirmaciones
+show Mostrar varios tipos de objetos
+status Muestra el estado del árbol de trabajo
+
+grow, mark and tweak your common history
+branch Enumera, crea o elimina ramas
+checkout Cambia de rama o restaura archivos del árbol de trabajo
+commit Registra cambios en el repositorio
+diff Muestra cambios entre commits, commit y árbol de trabajo, etc.
+merge Une dos o más historiales de desarrollo
+rebase Reenvía commits locales al encabezado upstream actualizado
+tag Crea, enumera, elimina o verifica un objeto de etiqueta firmado con GPG
+
+collaborate (ver también: flujos de trabajo de git help)
+fetch Descarga objetos y referencias de otro repositorio
+pull Obtiene e integra con otro repositorio o una rama local
+push Actualiza referencias remotas junto con objetos asociados
+
+'git help -a' y 'git help -g' enumeran los subcomandos disponibles y algunas
+guías de conceptos. Ver 'git help <command>' o 'git help <concept>'
+para leer sobre un subcomando o concepto específico.
